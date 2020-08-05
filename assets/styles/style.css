@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.google.com/specimen/Laila?sidebar.open&selection.family=Laila:wght@700');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background-color: whitesmoke;
+    background-image: url(../image/background.png);
+
+}
+
+h2 {
+    color: #363435;
+    margin-top: 2px;
+    font-family: 'Laila', serif;
+    font-size: 30px;
+
+}
+
+h2:hover {
+    opacity: 0.5;
+}
+
+h3 {
+    color: brown;
+}
+
+h4 {
+    margin-top: 0;
+    border-bottom: 1px solid #874e4c;
+}
+
+
+
+/* Header*/
+header {
+    display: inline;
+}
+
+.jumbotron {
+    font-size: 20px;
+    text-shadow: tomato;
+    padding: 10px;
+    background-color: #E2B091;
+    text-align: center;
+    background-image: url(../image/dapuruninew.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron h3 {
+    margin-top: 120px;
+    color: #363435;
+}
+
+nav {
+    background-color: #874E4C;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #363435;
+
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+#jam {
+    float: right;
+    margin-left: -100px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+/*Main*/
+
+main {
+    padding: 10px;
+    overflow: auto;
+    font-size: 14px;
+
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+.profile section {
+    text-align: left;
+    font-size: 14px;
+}
+
+.feature-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #EABCAC;
+
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+
+}
+
+.profile img {
+    width: 150px;
+    text-align: center;
+
+}
+
+.container-tiga {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /*supaya gambar turun*/
+    justify-content: center;
+    /*sisa gambar biar ada ditengah*/
+}
+
+.thumbnail {
+    width: 30%;
+}
+
+.thumbnail:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    width: 100%;
+    margin: 20px auto;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+.card .container-dua {
+    max-width: 800px;
+    display: flex;
+}
+
+.layanan {
+    margin: 2px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.layanan.satu {
+    background-color: rgb(243, 217, 198);
+    border-radius: 6px;
+    flex: 2;
+}
+
+.layanan.dua {
+    background-color: #E2B091;
+    border-radius: 6px;
+    flex: 4;
+}
+
+
+.container-satu {
+    width: 350px;
+    border: 2px solid white;
+    overflow: auto;
+    flex-wrap: wrap;
+    margin: 10px auto;
+
+}
+
+.thumbnails {
+    justify-content: center;
+}
+
+.thumb {
+    margin: auto;
+    width: 90px;
+    float: left;
+    border: 2px solid white;
+}
+
+.jumbo {
+    width: 100%;
+    margin-top: auto;
+    border: 2px solid white;
+}
+
+.thumb:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.newproduct {
+    background-color: #EABCAC;
+    height: 50px;
+}
+
+.newproduct h2 {
+    padding: 5px;
+}
+
+/*Footer*/
+
+footer {
+    padding: 10px;
+    color: #363435;
+    background-color: #874E4C;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade {
+    opacity: 0;
+    animation: fadein 0.5s forwards;
+}
+
+.active {
+    opacity: 0.5;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+.newproduct h2 {
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+@keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    .thumbnail {
+        width: 50%;
+    }
+
+    .container-dua {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }
+
+
+    .container-satu {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .thumbnails {
+        justify-content: center;
+    }
+
+
+
+}
